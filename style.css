@@ -46,3 +46,47 @@
 .navbar ul a:hover{
     color: darkturquoise;
 }
+
+.hero{
+    width: 100%;
+    height: 89vh;
+    background-image: url(img/Wallpaper.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.hero .content{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.about{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+}
+
+.about img{
+    width: 500px;
+    border-radius: 100%;
+}
+
+.about .text{
+    max-width: 520px;
+}
+
+.about .text h1{
+    margin-bottom: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.about .text p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

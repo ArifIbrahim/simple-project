@@ -2,14 +2,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
-.color{
-    width: 100%;
-    height: 80px;
-    background-color: blue;
-    opacity: 0.4;
-    z-index: 0;
+body{
+    overflow: scroll;
+    overflow-x: hidden;
 }
 
 .navbar{
@@ -18,8 +16,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: #9999FF;
     padding: 0 40px 0 40px;
-    position: absolute;
     z-index: 1;
 }
 
@@ -167,4 +165,68 @@
     margin: 0 0 13px 10px;
     font-weight: normal;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.contact{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    background-image: url(img/wallpaper2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    flex-direction: column;
+    padding: 40px 0 0 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.layer1{
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    position: relative;
+    gap: 80px;
+    background-color: rgba(0, 255, 226, 0.50);
+}
+
+.layer1 img{
+    position: relative;
+    height:500px;
+    top: -297px;
+}
+
+.layer1 .text{
+    text-align: center;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 100%;
+}
+
+.layer1 .text h1{
+    border-block-end: solid;
+    writing-mode: horizontal-tb;
+}
+
+.kontens{
+    display: flex;
+    text-align: left;
+    gap: 30px;
+}
+
+.konten1{
+    border-right: solid;
+    writing-mode: sideways-rl;
+    padding-right: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.konten2{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
 }

@@ -90,3 +90,81 @@
 .about .text p{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
+.service{
+    width: 100%;
+    height: auto;
+    padding: 40px 0 40px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: darkslateblue;
+}
+
+.cards{
+    width: 100%;
+    height: auto;
+    display: flex;
+    gap: 25px;
+    padding-top: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+.service1{
+    width: 400px;
+    max-height: 500px;
+    border-radius: 10px;
+    background-color: white;
+}
+.service1 img{
+    width: 100%;
+    height: 200px;
+    border-radius: 10px 10px 3px 3px;
+    transition: all .5s;
+}
+.service1 img:hover{
+    filter: brightness(50%);
+}
+.service1 h1{
+    margin: 10px 0 5px 10px;
+    font-family: monospace;
+}
+.service1 div{
+    position: absolute;
+}
+.service1 h3{
+    max-width: 380px;
+    margin: 0 0 13px 10px;
+    font-weight: normal;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.service2{
+    width: 400px;
+    max-height: 500px;
+    border-radius: 10px;
+    background-color: white;
+}
+.service2 img{
+    width: 100%;
+    height: 200px;
+    border-radius: 10px 10px 3px 3px;
+    transition: all .5s;
+}
+.service2 img:hover{
+    filter: brightness(50%);
+}
+.service2 h1{
+    margin: 10px 0 5px 10px;
+    font-family: monospace;
+}
+.service2 div{
+    position: absolute;
+}
+.service2 h3{
+    max-width: 380px;
+    margin: 0 0 13px 10px;
+    font-weight: normal;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}

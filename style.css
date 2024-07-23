@@ -243,11 +243,11 @@ a{
     justify-content: center;
     padding: 10px;
     color: white;
-    gap: 30px;
+    gap: 60px;
 }
 
 .footer img{
-    margin-right: 100px;
+    margin-right: 250px;
     height: 300px; 
     border-radius: 100%;
     padding: 20px;
